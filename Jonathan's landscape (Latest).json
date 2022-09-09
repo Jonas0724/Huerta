@@ -1,0 +1,145 @@
+{
+  "connections": [
+    {
+      "direction": "outgoing",
+      "id": "ANlLGFmvFzUtSMeoMSqs",
+      "name": "I2C",
+      "originId": "4gW9kJDhDj7y9ueuTZtB",
+      "targetId": "1jQWdz1ATC8XS7mG0fJ3",
+      "description": ""
+    },
+    {
+      "direction": "outgoing",
+      "id": "fI3dWyJjjbaqQjsyrqew",
+      "name": "LoRa",
+      "originId": "cxHT6RDSjNr9jidl4GUh",
+      "targetId": "rKG0qqUPbbzSze1LyAGZ",
+      "description": ""
+    },
+    {
+      "direction": "outgoing",
+      "id": "yKwPztQqqVv41p0pdWrO",
+      "name": "I2C",
+      "originId": "fKhMznZ6c8nwbbJcI5qH",
+      "targetId": "cxHT6RDSjNr9jidl4GUh",
+      "description": ""
+    },
+    {
+      "direction": "outgoing",
+      "id": "euCDITgArAcgOK8fb9XT",
+      "name": "I2C",
+      "originId": "rnWeBgFJ0Ib3gw5yc2wd",
+      "targetId": "cxHT6RDSjNr9jidl4GUh",
+      "description": ""
+    },
+    {
+      "direction": "outgoing",
+      "id": "WmoA3WbG18KrJWzQfiIf",
+      "name": "HTTP / Wifi",
+      "originId": "rKG0qqUPbbzSze1LyAGZ",
+      "targetId": "5Dk4SLWfKJ1d6G6z4eMu",
+      "description": ""
+    }
+  ],
+  "objects": [
+    {
+      "icon": null,
+      "id": "DqdGL5C1gQHyvsH6rUJG",
+      "links": {},
+      "name": "",
+      "parentId": null,
+      "type": "root",
+      "description": ""
+    },
+    {
+      "icon": null,
+      "id": "cxHT6RDSjNr9jidl4GUh",
+      "links": {},
+      "name": "Capa percepción",
+      "parentId": "DqdGL5C1gQHyvsH6rUJG",
+      "type": "system",
+      "description": ""
+    },
+    {
+      "icon": null,
+      "id": "fKhMznZ6c8nwbbJcI5qH",
+      "links": {},
+      "name": "Sensor humedad ",
+      "parentId": "DqdGL5C1gQHyvsH6rUJG",
+      "type": "actor",
+      "description": ""
+    },
+    {
+      "icon": null,
+      "id": "rnWeBgFJ0Ib3gw5yc2wd",
+      "links": {},
+      "name": "Sensor luminosidad",
+      "parentId": "DqdGL5C1gQHyvsH6rUJG",
+      "type": "actor",
+      "description": ""
+    },
+    {
+      "icon": null,
+      "id": "WRV5IY6ZI4gL81lxNNpD",
+      "links": {},
+      "name": "NODO DE CAMPO",
+      "parentId": "DqdGL5C1gQHyvsH6rUJG",
+      "type": "system",
+      "description": ""
+    },
+    {
+      "icon": null,
+      "id": "1jQWdz1ATC8XS7mG0fJ3",
+      "links": {},
+      "name": "TTGO",
+      "parentId": "DqdGL5C1gQHyvsH6rUJG",
+      "type": "system",
+      "description": ""
+    },
+    {
+      "icon": null,
+      "id": "4gW9kJDhDj7y9ueuTZtB",
+      "links": {},
+      "name": "ADS 1115",
+      "parentId": "DqdGL5C1gQHyvsH6rUJG",
+      "type": "system",
+      "description": ""
+    },
+    {
+      "icon": null,
+      "id": "rKG0qqUPbbzSze1LyAGZ",
+      "links": {},
+      "name": "Capa de red",
+      "parentId": "DqdGL5C1gQHyvsH6rUJG",
+      "type": "system",
+      "description": ""
+    },
+    {
+      "icon": null,
+      "id": "LgwFAg8GiG6kKJVrnfZZ",
+      "links": {},
+      "name": "TTGO 2",
+      "parentId": "DqdGL5C1gQHyvsH6rUJG",
+      "type": "system",
+      "description": ""
+    },
+    {
+      "icon": null,
+      "id": "5Dk4SLWfKJ1d6G6z4eMu",
+      "links": {},
+      "name": "Capa aplicación",
+      "parentId": "DqdGL5C1gQHyvsH6rUJG",
+      "type": "system",
+      "description": ""
+    },
+    {
+      "icon": null,
+      "id": "PaVnDL176GKPmqLv1x7E",
+      "links": {},
+      "name": "",
+      "parentId": "5Dk4SLWfKJ1d6G6z4eMu",
+      "type": "app",
+      "description": ""
+    }
+  ]
+}
